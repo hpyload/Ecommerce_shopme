@@ -1,0 +1,39 @@
+.navbar {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+}
+
+.navbar-brand img {
+    height: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+.nav-link {
+    transition: color 0.3s, transform 0.2s;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #f8d210 !important;
+    transform: scale(1.05);
+}
+
+.navbar-toggler {
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+    }
+}
